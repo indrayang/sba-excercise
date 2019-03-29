@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="b22c9fc3-14fb-45f6-975d-11b3deec989f" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Scenarios>
+    <Scenario Name="Scenario1" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+      <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
+      <LoadProfile Pattern="Constant" InitialUsers="25" />
+      <TestMix>
+        <TestProfile Name="TestDeleteProject_CompletedTasksGreater" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="61ae71bf-097d-65cf-ce5d-72ae9c372715" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteProject_NegativeProjectId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="6979b2a6-2014-5bea-ae22-3a23a74f449d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteProject_NegativeProjectIdInUser" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="b0891564-0faf-4ef5-c313-83011fc78a75" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteProject_NoProjectAsParameter" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="4d6d60ea-55c4-7e11-8587-eb40d6792722" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteProject_UserNullInProject" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="d622dfb1-f1f2-8e66-7dc7-0a9e98bf09f9" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteProjects_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="7ef0bd24-30f8-4b6b-ca75-e420067e2bc3" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteProjects_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="275efd95-2236-f6e5-4475-62a9da22e653" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteTask_NegativeProjectId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="1e5e4a69-7896-4eb1-37d3-5d23cc36c1b1" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteTask_NegativeTaskId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="2401db52-938c-e2c8-b612-cc44c4fe79cd" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteTask_NegativeTaskParentId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="1f70de60-efb8-f424-6ea2-437699065cfc" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteTask_NullTaskObject" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="19a7a828-b127-4214-ae0b-fb481029e7f7" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteUser_InvalidEmployeeId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c042e770-37a2-7b4a-9b62-64ba11816cfa" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteUser_InvalidProjectIdFormat" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="16d2ffa3-7375-432c-55b9-67e812e406f0" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteUser_NegativeEmployeeId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="691ef1ff-a555-0fa2-42b5-427aba17fd52" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteUser_NegativeUserIdFormat" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="d26fdbf8-f7a7-d563-3668-9736bd317f2d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteUser_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="f28f2683-ba2e-01d4-261a-cf780f354a7d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestDeleteUser_UserNullException" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="61e42990-0411-3abb-d303-b9e3dcc17551" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestGetProjects_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="f463776c-1fde-2fd2-af33-eaf561b0b926" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestGetUser_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="d4058ec3-0db0-c868-7f99-01da6059a39c" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertProject_CompletedTasksGreater" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c03e1b04-befd-1d5f-0c22-4a6a58b7a956" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertProject_NegativeProjectId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="56bb4940-4450-d220-2032-14fefca9bfd3" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertProject_NegativeProjectIdInUser" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="127ce33e-52a3-170e-ce5f-4de3b5abb4bf" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertProject_NoProjectAsParameter" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="7111d826-efb9-ac75-9cab-5e0de754cebf" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertProject_UserNullInProject" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="bf215249-1ac3-2427-745c-ee26e65a4d79" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertProjects_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="7aef6141-9f77-12ca-2226-5af4381a3b5f" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertTask_NegativeProjectId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="a59f394c-0a94-1180-0fb9-69c87558bdaf" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertTask_NegativeTaskId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="a585a4ff-5269-c333-f91b-5856ca670cb6" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertTask_NegativeTaskParentId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="ed8bb308-abf1-b985-e2c4-5495ade317aa" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertTask_NullTaskObject" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="3bbe3a32-73c9-a4cd-2730-dfbb0b89a173" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertTasks_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="9a0d4e04-d66e-3351-5e2e-23c47b714815" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertUser_InvalidEmployeeId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="dc7d2d07-e349-2869-55a8-7e8c69b806e7" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertUser_InvalidProjectIdFormat" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="3c96fb60-5994-4b71-1c6f-41db7556856e" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertUser_NegativeEmployeeId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="875a6f1b-27eb-1c2e-fbee-b54b999a8a50" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertUser_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="429390f9-eb80-81b0-efd6-3e993dd372bd" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestInsertUser_UserNullException" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="fc70bf7f-83f2-6154-d1f4-d53c035d3c4d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestRetrieveParentTasks_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c025865f-eb30-7969-3b1d-eb18d5577efc" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestRetrieveTaskByProjectId_NegativeTaskId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="0442a8ad-5eb9-8aa7-f383-288cc7fca8ab" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestRetrieveTaskByProjectId_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="79baf7ff-4e6e-6a01-3115-ad12437c2795" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestRetrieveTasks_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="9df10c3b-2867-7386-e7d6-262b7c8f4e24" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateProject_CompletedTasksGreater" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="6fd93b25-1fed-a7d6-31d9-93166c69ddad" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateProject_NegativeProjectId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="76e397b4-dc34-5e40-ac9a-49af38d74bcb" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateProject_NegativeProjectIdInUser" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="96a86ba7-442a-8823-14ab-b5acb8bc92bc" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateProject_NoProjectAsParameter" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="549a2440-cce2-e665-3b43-d754120b3e5a" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateProject_UserNullInProject" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="80dabf68-0861-c433-c90d-7ca8b461fe82" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateProjects_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="b1294f8e-d85d-4c21-a699-c8dca35ad3cf" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateProjects_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="300d8411-dfd6-b7ac-a805-3a3962f569af" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateTask_NegativeProjectId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="0ccc7d1a-2449-3d25-d985-94a33ededa45" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateTask_NegativeTaskId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="28ebb224-fd89-406f-02cc-d907d38cdf96" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateTask_NegativeTaskParentId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="8b659528-15bb-04f8-a4cb-7131d5f96c55" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateTask_NullTaskObject" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="9d0c94d7-ab30-1efa-7f8a-04c594c74c3d" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateUser_InvalidEmployeeId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="4b7814a2-d6e4-c0e3-984c-3c3022ef1af3" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateUser_InvalidProjectIdFormat" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="6f1b5702-fa7b-a5f1-b716-5b9f54379c82" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateUser_NegativeEmployeeId" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="3dcdb517-374e-32a2-8c10-0b0d48c5a249" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateUser_NegativeUserIdFormat" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c577fc32-4c2f-86b1-32ea-c70cd46682f8" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateUser_Success" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="e5a6620e-c7b1-6ad8-bd43-f88338121a82" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TestUpdateUser_UserNullException" Path="..\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="a310d823-74fa-4e38-adc7-c8bef23bca16" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="WebTest1" Path="..\webandloadtestproject1\webtest1.webtest" Id="8140b87c-3adf-48c2-a64f-fdcfb5444c2b" Percentage="1" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="WebTest1" Path="webtest1.webtest" Id="e93cdcfa-4f4a-4547-b2d6-fb3b36b3987e" Percentage="1" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestMix>
+      <BrowserMix>
+        <BrowserProfile Percentage="100">
+          <Browser Name="Internet Explorer 9.0" MaxConnections="6">
+            <Headers>
+              <Header Name="User-Agent" Value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+              <Header Name="Accept" Value="*/*" />
+              <Header Name="Accept-Language" Value="{{$IEAcceptLanguage}}" />
+              <Header Name="Accept-Encoding" Value="GZIP" />
+            </Headers>
+          </Browser>
+        </BrowserProfile>
+      </BrowserMix>
+      <NetworkMix>
+        <NetworkProfile Percentage="100">
+          <Network Name="LAN" BandwidthInKbps="1000000" NetworkProfileConfigurationXml="&lt;Emulation&gt;&lt;VirtualChannel name=&quot;defaultChannel&quot;&gt;&lt;FilterList/&gt;&lt;VirtualLink instances=&quot;1&quot; name=&quot;defaultLink&quot;&gt;&lt;LinkRule dir=&quot;upstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;LinkRule dir=&quot;downstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;/VirtualLink&gt;&lt;/VirtualChannel&gt;&lt;/Emulation&gt;" />
+        </NetworkProfile>
+      </NetworkMix>
+    </Scenario>
+  </Scenarios>
+  <CounterSets>
+    <CounterSet Name="LoadTest" CounterSetType="LoadTest" LocId="">
+      <CounterCategories>
+        <CounterCategory Name="LoadTest:Scenario">
+          <Counters>
+            <Counter Name="User Load" HigherIsBetter="true" />
+            <Counter Name="Tests Running" HigherIsBetter="true" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="LoadTest:Test">
+          <Counters>
+            <Counter Name="Total Tests" HigherIsBetter="true" />
+            <Counter Name="Passed Tests" HigherIsBetter="true" />
+            <Counter Name="Failed Tests" />
+            <Counter Name="Tests/Sec" HigherIsBetter="true" />
+            <Counter Name="Passed Tests/Sec" HigherIsBetter="true" />
+            <Counter Name="Failed Tests/Sec" />
+            <Counter Name="Avg. Requests/Test" HigherIsBetter="true" />
+            <Counter Name="Avg. Test Time" />
+            <Counter Name="% Time in LoadTestPlugin" />
+            <Counter Name="% Time in WebTest code" />
+            <Counter Name="% Time in Rules" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="LoadTest:Transaction">
+          <Counters>
+            <Counter Name="Total Transactions" HigherIsBetter="true" />
+            <Counter Name="Avg. Transaction Time" />
+            <Counter Name="Avg. Response Time" />
+            <Counter Name="Transactions/Sec" HigherIsBetter="true" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="LoadTest:Errors">
+          <Counters>
+            <Counter Name="Http Errors" />
+            <Counter Name="Validation Rule Errors" />
+            <Counter Name="Extraction Rule Errors" />
+            <Counter Name="Requests Timed Out" />
+            <Counter Name="Exceptions" />
+            <Counter Name="Total Errors" />
+            <Counter Name="Errors/Sec" />
+            <Counter Name="Threshold Violations/Sec" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="LoadTest:Page">
+          <Counters>
+            <Counter Name="Total Pages" HigherIsBetter="true" />
+            <Counter Name="Avg. Page Time" />
+            <Counter Name="Page Response Time Goal" HigherIsBetter="true" />
+            <Counter Name="% Pages Meeting Goal" HigherIsBetter="true" />
+            <Counter Name="Pages/Sec" HigherIsBetter="true" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="LoadTest:Request">
+          <Counters>
+            <Counter Name="Total Requests" HigherIsBetter="true" />
+            <Counter Name="Passed Requests" HigherIsBetter="true" />
+            <Counter Name="Failed Requests" />
+            <Counter Name="Cached Requests" HigherIsBetter="true" />
+            <Counter Name="Requests/Sec" HigherIsBetter="true" />
+            <Counter Name="Passed Requests/Sec" HigherIsBetter="true" />
+            <Counter Name="Failed Requests/Sec" />
+            <Counter Name="Avg. First Byte Time" />
+            <Counter Name="Avg. Response Time" />
+            <Counter Name="Avg. Connection Wait Time">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                  <RuleParameters>
+                    <RuleParameter Name="DependentCategory" Value="LoadTest:Page" />
+                    <RuleParameter Name="DependentCounter" Value="Avg. Page Time" />
+                    <RuleParameter Name="DependentInstance" Value="_Total" />
+                    <RuleParameter Name="AlertIfOver" Value="True" />
+                    <RuleParameter Name="WarningThreshold" Value="0.25" />
+                    <RuleParameter Name="CriticalThreshold" Value="0.5" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="Avg. Content Length" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="LoadTest:LogEntries">
+          <Counters>
+            <Counter Name="Total Log Entries" />
+            <Counter Name="Log Entries/Sec" />
+          </Counters>
+        </CounterCategory>
+      </CounterCategories>
+    </CounterSet>
+    <CounterSet Name="Controller" CounterSetType="Controller" LocId="CounterSet_Controller">
+      <CounterCategories>
+        <CounterCategory Name="Memory">
+          <Counters>
+            <Counter Name="% Committed Bytes In Use" Range="100" />
+            <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="False" />
+                    <RuleParameter Name="WarningThreshold" Value="100" />
+                    <RuleParameter Name="CriticalThreshold" Value="50" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="Page Faults/sec" />
+            <Counter Name="Pages/sec" />
+            <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+            <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="Network Interface">
+          <Counters>
+            <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+            <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+            <Counter Name="Output Queue Length">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="True" />
+                    <RuleParameter Name="WarningThreshold" Value="1.5" />
+                    <RuleParameter Name="CriticalThreshold" Value="2" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+            <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+            <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+            <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                  <RuleParameters>
+                    <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                    <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                    <RuleParameter Name="DependentInstance" Value="" />
+                    <RuleParameter Name="AlertIfOver" Value="True" />
+                    <RuleParameter Name="WarningThreshold" Value="0.6" />
+                    <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+          </Counters>
+          <Instances>
+            <Instance Name="*" />
+          </Instances>
+        </CounterCategory>
+        <CounterCategory Name="PhysicalDisk">
+          <Counters>
+            <Counter Name="% Disk Read Time" Range="100" />
+            <Counter Name="% Disk Time" Range="100" />
+            <Counter Name="% Disk Write Time" Range="100" />
+            <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="False" />
+                    <RuleParameter Name="WarningThreshold" Value="40" />
+                    <RuleParameter Name="CriticalThreshold" Value="20" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+            <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+            <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+            <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+            <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+            <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+            <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+            <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+            <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+            <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+            <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+            <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+            <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+          </Counters>
+          <Instances>
+            <Instance Name="*" />
+          </Instances>
+        </CounterCategory>
+        <CounterCategory Name="Processor">
+          <Counters>
+            <Counter Name="% Processor Time" Range="100">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="True" />
+                    <RuleParameter Name="WarningThreshold" Value="75" />
+                    <RuleParameter Name="CriticalThreshold" Value="90" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="% Privileged Time" Range="100" />
+            <Counter Name="% User Time" Range="100" />
+          </Counters>
+          <Instances>
+            <Instance Name="_Total" />
+          </Instances>
+        </CounterCategory>
+        <CounterCategory Name="System">
+          <Counters>
+            <Counter Name="Context Switches/sec" />
+            <Counter Name="Processes" />
+            <Counter Name="Processor Queue Length" />
+            <Counter Name="Threads" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="Process">
+          <Counters>
+            <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+            <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+            <Counter Name="% User Time" RangeGroup="Processor Time" />
+            <Counter Name="Handle Count" />
+            <Counter Name="Thread Count" />
+            <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+            <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+            <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+          </Counters>
+          <Instances>
+            <Instance Name="QTController" />
+            <Instance Name="QTController64" />
+          </Instances>
+        </CounterCategory>
+      </CounterCategories>
+      <DefaultCountersForAutomaticGraphs>
+        <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" />
+        <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+      </DefaultCountersForAutomaticGraphs>
+    </CounterSet>
+    <CounterSet Name="Agent" CounterSetType="Agent" LocId="CounterSet_Agent">
+      <CounterCategories>
+        <CounterCategory Name="Memory">
+          <Counters>
+            <Counter Name="% Committed Bytes In Use" Range="100" />
+            <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="False" />
+                    <RuleParameter Name="WarningThreshold" Value="100" />
+                    <RuleParameter Name="CriticalThreshold" Value="50" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="Page Faults/sec" />
+            <Counter Name="Pages/sec" />
+            <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+            <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="Network Interface">
+          <Counters>
+            <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+            <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+            <Counter Name="Output Queue Length">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="True" />
+                    <RuleParameter Name="WarningThreshold" Value="1.5" />
+                    <RuleParameter Name="CriticalThreshold" Value="2" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+            <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+            <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+            <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                  <RuleParameters>
+                    <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                    <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                    <RuleParameter Name="DependentInstance" Value="" />
+                    <RuleParameter Name="AlertIfOver" Value="True" />
+                    <RuleParameter Name="WarningThreshold" Value="0.6" />
+                    <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+          </Counters>
+          <Instances>
+            <Instance Name="*" />
+          </Instances>
+        </CounterCategory>
+        <CounterCategory Name="PhysicalDisk">
+          <Counters>
+            <Counter Name="% Disk Read Time" Range="100" />
+            <Counter Name="% Disk Time" Range="100" />
+            <Counter Name="% Disk Write Time" Range="100" />
+            <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="False" />
+                    <RuleParameter Name="WarningThreshold" Value="40" />
+                    <RuleParameter Name="CriticalThreshold" Value="20" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+            <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+            <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+            <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+            <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+            <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+            <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+            <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+            <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+            <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+            <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+            <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+            <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+            <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+          </Counters>
+          <Instances>
+            <Instance Name="*" />
+          </Instances>
+        </CounterCategory>
+        <CounterCategory Name="Processor">
+          <Counters>
+            <Counter Name="% Processor Time" Range="100">
+              <ThresholdRules>
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                  <RuleParameters>
+                    <RuleParameter Name="AlertIfOver" Value="True" />
+                    <RuleParameter Name="WarningThreshold" Value="75" />
+                    <RuleParameter Name="CriticalThreshold" Value="90" />
+                  </RuleParameters>
+                </ThresholdRule>
+              </ThresholdRules>
+            </Counter>
+            <Counter Name="% Privileged Time" Range="100" />
+            <Counter Name="% User Time" Range="100" />
+          </Counters>
+          <Instances>
+            <Instance Name="0" />
+            <Instance Name="_Total" />
+          </Instances>
+        </CounterCategory>
+        <CounterCategory Name="System">
+          <Counters>
+            <Counter Name="Context Switches/sec" />
+            <Counter Name="Processes" />
+            <Counter Name="Processor Queue Length" />
+            <Counter Name="Threads" />
+          </Counters>
+        </CounterCategory>
+        <CounterCategory Name="Process">
+          <Counters>
+            <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+            <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+            <Counter Name="% User Time" RangeGroup="Processor Time" />
+            <Counter Name="Handle Count" />
+            <Counter Name="Thread Count" />
+            <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+            <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+            <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+          </Counters>
+          <Instances>
+            <Instance Name="devenv" />
+            <Instance Name="QTAgentService" />
+            <Instance Name="QTAgent" />
+            <Instance Name="QTAgent32" />
+            <Instance Name="QTDCAgent" />
+            <Instance Name="QTDCAgent32" />
+            <Instance Name="QTAgent_35" />
+            <Instance Name="QTAgent_40" />
+            <Instance Name="QTAgent32_35" />
+            <Instance Name="QTAgent32_40" />
+          </Instances>
+        </CounterCategory>
+      </CounterCategories>
+      <DefaultCountersForAutomaticGraphs>
+        <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="0" GraphName="" RunType="Local" />
+        <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" RunType="Remote" />
+        <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+      </DefaultCountersForAutomaticGraphs>
+    </CounterSet>
+  </CounterSets>
+  <RunConfigurations>
+    <RunConfiguration Name="Run Settings1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="false" RunDuration="300" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="15" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingFileCount="2" SqlTracingRolloverEnabled="true" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true" CoreCount="0" ResourcesRetentionTimeInMinutes="0" AgentDiagnosticsLevel="Warning">
+      <CounterSetMappings>
+        <CounterSetMapping ComputerName="[CONTROLLER MACHINE]">
+          <CounterSetReferences>
+            <CounterSetReference CounterSetName="LoadTest" />
+            <CounterSetReference CounterSetName="Controller" />
+          </CounterSetReferences>
+        </CounterSetMapping>
+        <CounterSetMapping ComputerName="[AGENT MACHINES]">
+          <CounterSetReferences>
+            <CounterSetReference CounterSetName="Agent" />
+          </CounterSetReferences>
+        </CounterSetMapping>
+      </CounterSetMappings>
+      <LoadGeneratorLocations>
+        <GeoLocation Location="Default" Percentage="100" />
+      </LoadGeneratorLocations>
+    </RunConfiguration>
+  </RunConfigurations>
+</LoadTest>

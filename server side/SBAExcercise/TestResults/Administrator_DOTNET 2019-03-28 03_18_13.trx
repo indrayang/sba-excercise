@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f0b18509-d051-4f48-8ade-62c68ecdadcc" name="Administrator@DOTNET 2019-03-28 03:18:13" runUser="DOTNET\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9ba805de-2127-4f7a-8996-29db68581dd2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Administrator_DOTNET 2019-03-28 03_18_13">
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\ProjectManagement.Tests\bin\Debug\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\ProjectManagement\bin\ProjectManagement.dll" />
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\ProjectManagement.Tests\bin\Debug\EntityFramework.dll" />
+    </Deployment>
+    <Execution hostProcessPlatform="MSIL">
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-03-28T03:18:13.7060414-07:00" queuing="2019-03-28T03:18:15.5950410-07:00" start="2019-03-28T03:18:15.7530420-07:00" finish="2019-03-28T03:25:13.9841814-07:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="0" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="1" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DOTNET" outcome="Warning" timestamp="2019-03-28T03:18:13.9520476-07:00">
+        <Text>Warning: conflict during test run deployment: deployment item 'c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\webandloadtestproject1\webtest1.webtest' specified by the test assembly 'c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\webandloadtestproject1\webtest1.webtest' cannot be deployed to 'webtest1.webtest' because otherwise the file 'c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\webandloadtestproject1\webtest1.webtest' would overwrite deployment item 'c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\webtest1.webtest' specified by the test assembly 'c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\webtest1.webtest'.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRetrieveTaskByProjectId_NegativeTaskId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="0442a8ad-5eb9-8aa7-f383-288cc7fca8ab">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRetrieveTaskByProjectId_NegativeTaskId" />
+    </UnitTest>
+    <UnitTest name="TestUpdateProject_NegativeProjectIdInUser" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="96a86ba7-442a-8823-14ab-b5acb8bc92bc">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateProject_NegativeProjectIdInUser" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProjects_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="7ef0bd24-30f8-4b6b-ca75-e420067e2bc3">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteProjects_Success" />
+    </UnitTest>
+    <UnitTest name="TestUpdateProject_CompletedTasksGreater" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="6fd93b25-1fed-a7d6-31d9-93166c69ddad">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateProject_CompletedTasksGreater" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProject_NegativeProjectId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="6979b2a6-2014-5bea-ae22-3a23a74f449d">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteProject_NegativeProjectId" />
+    </UnitTest>
+    <UnitTest name="TestUpdateProjects_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="b1294f8e-d85d-4c21-a699-c8dca35ad3cf">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateProjects_Success" />
+    </UnitTest>
+    <WebTest name="WebTest1" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\webtest1.webtest" id="e93cdcfa-4f4a-4547-b2d6-fb3b36b3987e" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iV2ViVGVzdDEiIElkPSJlOTNjZGNmYS00ZjRhLTQ1NDctYjJkNi1mYjNiMzZiMzk4N2UiIE93bmVyPSIiIFByaW9yaXR5PSIyMTQ3NDgzNjQ3IiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAxMCIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSJkZWZhdWx0IiBTdG9wT25FcnJvcj0iRmFsc2UiIFJlY29yZGVkUmVzdWx0RmlsZT0iIiBSZXN1bHRzTG9jYWxlPSIiIC8+">
+    </WebTest>
+    <UnitTest name="TestInsertTask_NegativeTaskParentId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="ed8bb308-abf1-b985-e2c4-5495ade317aa">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertTask_NegativeTaskParentId" />
+    </UnitTest>
+    <UnitTest name="TestInsertTask_NullTaskObject" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="3bbe3a32-73c9-a4cd-2730-dfbb0b89a173">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertTask_NullTaskObject" />
+    </UnitTest>
+    <UnitTest name="TestDeleteUser_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="f28f2683-ba2e-01d4-261a-cf780f354a7d">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteUser_Success" />
+    </UnitTest>
+    <UnitTest name="TestUpdateProject_NegativeProjectId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="76e397b4-dc34-5e40-ac9a-49af38d74bcb">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateProject_NegativeProjectId" />
+    </UnitTest>
+    <UnitTest name="TestGetProjects_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="f463776c-1fde-2fd2-af33-eaf561b0b926">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetProjects_Success" />
+    </UnitTest>
+    <UnitTest name="TestRetrieveTasks_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="9df10c3b-2867-7386-e7d6-262b7c8f4e24">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRetrieveTasks_Success" />
+    </UnitTest>
+    <UnitTest name="TestInsertProject_CompletedTasksGreater" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="c03e1b04-befd-1d5f-0c22-4a6a58b7a956">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertProject_CompletedTasksGreater" />
+    </UnitTest>
+    <LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="b22c9fc3-14fb-45f6-975d-11b3deec989f">
+      <Scenarios>
+        <Scenario Name="Scenario1" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+          <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
+          <LoadProfile Pattern="Constant" InitialUsers="25" />
+          <TestMix>
+            <TestProfile Name="TestDeleteProject_CompletedTasksGreater" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="61ae71bf-097d-65cf-ce5d-72ae9c372715" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteProject_NegativeProjectId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="6979b2a6-2014-5bea-ae22-3a23a74f449d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteProject_NegativeProjectIdInUser" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="b0891564-0faf-4ef5-c313-83011fc78a75" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteProject_NoProjectAsParameter" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="4d6d60ea-55c4-7e11-8587-eb40d6792722" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteProject_UserNullInProject" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="d622dfb1-f1f2-8e66-7dc7-0a9e98bf09f9" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteProjects_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="7ef0bd24-30f8-4b6b-ca75-e420067e2bc3" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteProjects_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="275efd95-2236-f6e5-4475-62a9da22e653" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteTask_NegativeProjectId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="1e5e4a69-7896-4eb1-37d3-5d23cc36c1b1" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteTask_NegativeTaskId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="2401db52-938c-e2c8-b612-cc44c4fe79cd" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteTask_NegativeTaskParentId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="1f70de60-efb8-f424-6ea2-437699065cfc" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteTask_NullTaskObject" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="19a7a828-b127-4214-ae0b-fb481029e7f7" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteUser_InvalidEmployeeId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c042e770-37a2-7b4a-9b62-64ba11816cfa" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteUser_InvalidProjectIdFormat" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="16d2ffa3-7375-432c-55b9-67e812e406f0" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteUser_NegativeEmployeeId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="691ef1ff-a555-0fa2-42b5-427aba17fd52" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteUser_NegativeUserIdFormat" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="d26fdbf8-f7a7-d563-3668-9736bd317f2d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteUser_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="f28f2683-ba2e-01d4-261a-cf780f354a7d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestDeleteUser_UserNullException" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="61e42990-0411-3abb-d303-b9e3dcc17551" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestGetProjects_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="f463776c-1fde-2fd2-af33-eaf561b0b926" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestGetUser_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="d4058ec3-0db0-c868-7f99-01da6059a39c" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertProject_CompletedTasksGreater" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c03e1b04-befd-1d5f-0c22-4a6a58b7a956" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertProject_NegativeProjectId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="56bb4940-4450-d220-2032-14fefca9bfd3" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertProject_NegativeProjectIdInUser" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="127ce33e-52a3-170e-ce5f-4de3b5abb4bf" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertProject_NoProjectAsParameter" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="7111d826-efb9-ac75-9cab-5e0de754cebf" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertProject_UserNullInProject" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="bf215249-1ac3-2427-745c-ee26e65a4d79" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertProjects_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="7aef6141-9f77-12ca-2226-5af4381a3b5f" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertTask_NegativeProjectId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="a59f394c-0a94-1180-0fb9-69c87558bdaf" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertTask_NegativeTaskId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="a585a4ff-5269-c333-f91b-5856ca670cb6" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertTask_NegativeTaskParentId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="ed8bb308-abf1-b985-e2c4-5495ade317aa" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertTask_NullTaskObject" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="3bbe3a32-73c9-a4cd-2730-dfbb0b89a173" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertTasks_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="9a0d4e04-d66e-3351-5e2e-23c47b714815" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertUser_InvalidEmployeeId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="dc7d2d07-e349-2869-55a8-7e8c69b806e7" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertUser_InvalidProjectIdFormat" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="3c96fb60-5994-4b71-1c6f-41db7556856e" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertUser_NegativeEmployeeId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="875a6f1b-27eb-1c2e-fbee-b54b999a8a50" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertUser_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="429390f9-eb80-81b0-efd6-3e993dd372bd" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestInsertUser_UserNullException" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="fc70bf7f-83f2-6154-d1f4-d53c035d3c4d" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestRetrieveParentTasks_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c025865f-eb30-7969-3b1d-eb18d5577efc" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestRetrieveTaskByProjectId_NegativeTaskId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="0442a8ad-5eb9-8aa7-f383-288cc7fca8ab" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestRetrieveTaskByProjectId_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="79baf7ff-4e6e-6a01-3115-ad12437c2795" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestRetrieveTasks_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="9df10c3b-2867-7386-e7d6-262b7c8f4e24" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateProject_CompletedTasksGreater" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="6fd93b25-1fed-a7d6-31d9-93166c69ddad" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateProject_NegativeProjectId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="76e397b4-dc34-5e40-ac9a-49af38d74bcb" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateProject_NegativeProjectIdInUser" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="96a86ba7-442a-8823-14ab-b5acb8bc92bc" Percentage="2" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateProject_NoProjectAsParameter" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="549a2440-cce2-e665-3b43-d754120b3e5a" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateProject_UserNullInProject" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="80dabf68-0861-c433-c90d-7ca8b461fe82" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateProjects_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="b1294f8e-d85d-4c21-a699-c8dca35ad3cf" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateProjects_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="300d8411-dfd6-b7ac-a805-3a3962f569af" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateTask_NegativeProjectId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="0ccc7d1a-2449-3d25-d985-94a33ededa45" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateTask_NegativeTaskId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="28ebb224-fd89-406f-02cc-d907d38cdf96" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateTask_NegativeTaskParentId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="8b659528-15bb-04f8-a4cb-7131d5f96c55" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateTask_NullTaskObject" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="9d0c94d7-ab30-1efa-7f8a-04c594c74c3d" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateUser_InvalidEmployeeId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="4b7814a2-d6e4-c0e3-984c-3c3022ef1af3" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateUser_InvalidProjectIdFormat" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="6f1b5702-fa7b-a5f1-b716-5b9f54379c82" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateUser_NegativeEmployeeId" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="3dcdb517-374e-32a2-8c10-0b0d48c5a249" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateUser_NegativeUserIdFormat" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="c577fc32-4c2f-86b1-32ea-c70cd46682f8" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateUser_Success" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="e5a6620e-c7b1-6ad8-bd43-f88338121a82" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="TestUpdateUser_UserNullException" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" Id="a310d823-74fa-4e38-adc7-c8bef23bca16" Percentage="1" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="WebTest1" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\..\webandloadtestproject1\webtest1.webtest" Id="8140b87c-3adf-48c2-a64f-fdcfb5444c2b" Percentage="1" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="WebTest1" Path="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\webtest1.webtest" Id="e93cdcfa-4f4a-4547-b2d6-fb3b36b3987e" Percentage="1" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+          </TestMix>
+          <BrowserMix>
+            <BrowserProfile Percentage="100">
+              <Browser Name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header Name="User-Agent" Value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header Name="Accept" Value="*/*" />
+                  <Header Name="Accept-Language" Value="{{$IEAcceptLanguage}}" />
+                  <Header Name="Accept-Encoding" Value="GZIP" />
+                </Headers>
+              </Browser>
+            </BrowserProfile>
+          </BrowserMix>
+          <NetworkMix>
+            <NetworkProfile Percentage="100">
+              <Network Name="LAN" BandwidthInKbps="1000000" NetworkProfileConfigurationXml="&lt;Emulation&gt;&lt;VirtualChannel name=&quot;defaultChannel&quot;&gt;&lt;FilterList/&gt;&lt;VirtualLink instances=&quot;1&quot; name=&quot;defaultLink&quot;&gt;&lt;LinkRule dir=&quot;upstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;LinkRule dir=&quot;downstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;/VirtualLink&gt;&lt;/VirtualChannel&gt;&lt;/Emulation&gt;" />
+            </NetworkProfile>
+          </NetworkMix>
+        </Scenario>
+      </Scenarios>
+      <CounterSets>
+        <CounterSet Name="DOTNET" CounterSetType="LoadTest" LocId="">
+          <CounterCategories>
+            <CounterCategory Name="LoadTest:Scenario">
+              <Counters>
+                <Counter Name="User Load" HigherIsBetter="true" />
+                <Counter Name="Tests Running" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Test">
+              <Counters>
+                <Counter Name="Total Tests" HigherIsBetter="true" />
+                <Counter Name="Passed Tests" HigherIsBetter="true" />
+                <Counter Name="Failed Tests" />
+                <Counter Name="Tests/Sec" HigherIsBetter="true" />
+                <Counter Name="Passed Tests/Sec" HigherIsBetter="true" />
+                <Counter Name="Failed Tests/Sec" />
+                <Counter Name="Avg. Requests/Test" HigherIsBetter="true" />
+                <Counter Name="Avg. Test Time" />
+                <Counter Name="% Time in LoadTestPlugin" />
+                <Counter Name="% Time in WebTest code" />
+                <Counter Name="% Time in Rules" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Transaction">
+              <Counters>
+                <Counter Name="Total Transactions" HigherIsBetter="true" />
+                <Counter Name="Avg. Transaction Time" />
+                <Counter Name="Avg. Response Time" />
+                <Counter Name="Transactions/Sec" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Errors">
+              <Counters>
+                <Counter Name="Http Errors" />
+                <Counter Name="Validation Rule Errors" />
+                <Counter Name="Extraction Rule Errors" />
+                <Counter Name="Requests Timed Out" />
+                <Counter Name="Exceptions" />
+                <Counter Name="Total Errors" />
+                <Counter Name="Errors/Sec" />
+                <Counter Name="Threshold Violations/Sec" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Page">
+              <Counters>
+                <Counter Name="Total Pages" HigherIsBetter="true" />
+                <Counter Name="Avg. Page Time" />
+                <Counter Name="Page Response Time Goal" HigherIsBetter="true" />
+                <Counter Name="% Pages Meeting Goal" HigherIsBetter="true" />
+                <Counter Name="Pages/Sec" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Request">
+              <Counters>
+                <Counter Name="Total Requests" HigherIsBetter="true" />
+                <Counter Name="Passed Requests" HigherIsBetter="true" />
+                <Counter Name="Failed Requests" />
+                <Counter Name="Cached Requests" HigherIsBetter="true" />
+                <Counter Name="Requests/Sec" HigherIsBetter="true" />
+                <Counter Name="Passed Requests/Sec" HigherIsBetter="true" />
+                <Counter Name="Failed Requests/Sec" />
+                <Counter Name="Avg. First Byte Time" />
+                <Counter Name="Avg. Response Time" />
+                <Counter Name="Avg. Connection Wait Time">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="LoadTest:Page" />
+                        <RuleParameter Name="DependentCounter" Value="Avg. Page Time" />
+                        <RuleParameter Name="DependentInstance" Value="_Total" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.25" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.5" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Content Length" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:LogEntries">
+              <Counters>
+                <Counter Name="Total Log Entries" />
+                <Counter Name="Log Entries/Sec" />
+              </Counters>
+            </CounterCategory>
+          </CounterCategories>
+        </CounterSet>
+        <CounterSet Name="Controller" CounterSetType="Controller" LocId="CounterSet_Controller">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="% Committed Bytes In Use" Range="100" />
+                <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Output Queue Length">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+                <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+                <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="PhysicalDisk">
+              <Counters>
+                <Counter Name="% Disk Read Time" Range="100" />
+                <Counter Name="% Disk Time" Range="100" />
+                <Counter Name="% Disk Write Time" Range="100" />
+                <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+                <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time" Range="100">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="% Privileged Time" Range="100" />
+                <Counter Name="% User Time" Range="100" />
+              </Counters>
+              <Instances>
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+                <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+                <Counter Name="% User Time" RangeGroup="Processor Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+              </Counters>
+              <Instances>
+                <Instance Name="QTController" />
+                <Instance Name="QTController64" />
+              </Instances>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+        <CounterSet Name="Agent" CounterSetType="Agent" LocId="CounterSet_Agent">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="% Committed Bytes In Use" Range="100" />
+                <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Output Queue Length">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+                <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+                <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="PhysicalDisk">
+              <Counters>
+                <Counter Name="% Disk Read Time" Range="100" />
+                <Counter Name="% Disk Time" Range="100" />
+                <Counter Name="% Disk Write Time" Range="100" />
+                <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+                <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time" Range="100">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="% Privileged Time" Range="100" />
+                <Counter Name="% User Time" Range="100" />
+              </Counters>
+              <Instances>
+                <Instance Name="0" />
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+                <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+                <Counter Name="% User Time" RangeGroup="Processor Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+              </Counters>
+              <Instances>
+                <Instance Name="devenv" />
+                <Instance Name="QTAgentService" />
+                <Instance Name="QTAgent" />
+                <Instance Name="QTAgent32" />
+                <Instance Name="QTDCAgent" />
+                <Instance Name="QTDCAgent32" />
+                <Instance Name="QTAgent_35" />
+                <Instance Name="QTAgent_40" />
+                <Instance Name="QTAgent32_35" />
+                <Instance Name="QTAgent32_40" />
+              </Instances>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="0" GraphName="" RunType="Local" />
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" RunType="Remote" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+      </CounterSets>
+      <RunConfigurations>
+        <RunConfiguration Name="Run Settings1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="false" RunDuration="300" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="15" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingFileCount="2" SqlTracingRolloverEnabled="true" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true" CoreCount="0" ResourcesRetentionTimeInMinutes="0" AgentDiagnosticsLevel="Warning">
+          <CounterSetMappings>
+            <CounterSetMapping ComputerName="[CONTROLLER MACHINE]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="LoadTest" />
+                <CounterSetReference CounterSetName="Controller" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+            <CounterSetMapping ComputerName="[AGENT MACHINES]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="Agent" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+          </CounterSetMappings>
+          <LoadGeneratorLocations>
+            <GeoLocation Location="Default" Percentage="100" />
+          </LoadGeneratorLocations>
+        </RunConfiguration>
+      </RunConfigurations>
+    </LoadTest>
+    <UnitTest name="TestUpdateUser_InvalidProjectIdFormat" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="6f1b5702-fa7b-a5f1-b716-5b9f54379c82">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateUser_InvalidProjectIdFormat" />
+    </UnitTest>
+    <WebTest name="WebTest1" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\pmloadtestproject2\..\webandloadtestproject1\webtest1.webtest" id="8140b87c-3adf-48c2-a64f-fdcfb5444c2b" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iV2ViVGVzdDEiIElkPSI4MTQwYjg3Yy0zYWRmLTQ4YzItYTY0Zi1mZGNmYjU0NDRjMmIiIE93bmVyPSIiIFByaW9yaXR5PSIyMTQ3NDgzNjQ3IiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAxMCIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSJkZWZhdWx0IiBTdG9wT25FcnJvcj0iRmFsc2UiIFJlY29yZGVkUmVzdWx0RmlsZT0iIiBSZXN1bHRzTG9jYWxlPSIiIC8+">
+    </WebTest>
+    <UnitTest name="TestDeleteProject_CompletedTasksGreater" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="61ae71bf-097d-65cf-ce5d-72ae9c372715">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteProject_CompletedTasksGreater" />
+    </UnitTest>
+    <UnitTest name="TestUpdateProject_UserNullInProject" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="80dabf68-0861-c433-c90d-7ca8b461fe82">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateProject_UserNullInProject" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProject_NegativeProjectIdInUser" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="b0891564-0faf-4ef5-c313-83011fc78a75">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteProject_NegativeProjectIdInUser" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProject_NoProjectAsParameter" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="4d6d60ea-55c4-7e11-8587-eb40d6792722">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteProject_NoProjectAsParameter" />
+    </UnitTest>
+    <UnitTest name="TestInsertProjects_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="7aef6141-9f77-12ca-2226-5af4381a3b5f">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertProjects_Success" />
+    </UnitTest>
+    <UnitTest name="TestInsertProject_NegativeProjectId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="56bb4940-4450-d220-2032-14fefca9bfd3">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertProject_NegativeProjectId" />
+    </UnitTest>
+    <UnitTest name="TestInsertTask_NegativeTaskId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="a585a4ff-5269-c333-f91b-5856ca670cb6">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertTask_NegativeTaskId" />
+    </UnitTest>
+    <UnitTest name="TestInsertProject_NoProjectAsParameter" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="7111d826-efb9-ac75-9cab-5e0de754cebf">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertProject_NoProjectAsParameter" />
+    </UnitTest>
+    <UnitTest name="TestUpdateUser_UserNullException" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="a310d823-74fa-4e38-adc7-c8bef23bca16">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateUser_UserNullException" />
+    </UnitTest>
+    <UnitTest name="TestInsertUser_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="429390f9-eb80-81b0-efd6-3e993dd372bd">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertUser_Success" />
+    </UnitTest>
+    <UnitTest name="TestInsertUser_InvalidEmployeeId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="dc7d2d07-e349-2869-55a8-7e8c69b806e7">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertUser_InvalidEmployeeId" />
+    </UnitTest>
+    <UnitTest name="TestUpdateUser_InvalidEmployeeId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="4b7814a2-d6e4-c0e3-984c-3c3022ef1af3">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateUser_InvalidEmployeeId" />
+    </UnitTest>
+    <UnitTest name="TestInsertUser_NegativeEmployeeId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="875a6f1b-27eb-1c2e-fbee-b54b999a8a50">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertUser_NegativeEmployeeId" />
+    </UnitTest>
+    <UnitTest name="TestInsertTasks_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="9a0d4e04-d66e-3351-5e2e-23c47b714815">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertTasks_Success" />
+    </UnitTest>
+    <UnitTest name="TestDeleteUser_NegativeUserIdFormat" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="d26fdbf8-f7a7-d563-3668-9736bd317f2d">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteUser_NegativeUserIdFormat" />
+    </UnitTest>
+    <UnitTest name="TestUpdateProjects_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="300d8411-dfd6-b7ac-a805-3a3962f569af">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateProjects_Success" />
+    </UnitTest>
+    <UnitTest name="TestUpdateUser_NegativeUserIdFormat" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="c577fc32-4c2f-86b1-32ea-c70cd46682f8">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateUser_NegativeUserIdFormat" />
+    </UnitTest>
+    <UnitTest name="TestUpdateUser_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="e5a6620e-c7b1-6ad8-bd43-f88338121a82">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateUser_Success" />
+    </UnitTest>
+    <UnitTest name="TestUpdateTask_NullTaskObject" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="9d0c94d7-ab30-1efa-7f8a-04c594c74c3d">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateTask_NullTaskObject" />
+    </UnitTest>
+    <UnitTest name="TestUpdateTask_NegativeTaskParentId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="8b659528-15bb-04f8-a4cb-7131d5f96c55">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateTask_NegativeTaskParentId" />
+    </UnitTest>
+    <UnitTest name="TestDeleteUser_NegativeEmployeeId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="691ef1ff-a555-0fa2-42b5-427aba17fd52">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteUser_NegativeEmployeeId" />
+    </UnitTest>
+    <UnitTest name="TestInsertTask_NegativeProjectId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="a59f394c-0a94-1180-0fb9-69c87558bdaf">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertTask_NegativeProjectId" />
+    </UnitTest>
+    <UnitTest name="TestUpdateTask_NegativeTaskId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="28ebb224-fd89-406f-02cc-d907d38cdf96">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateTask_NegativeTaskId" />
+    </UnitTest>
+    <UnitTest name="TestInsertUser_UserNullException" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="fc70bf7f-83f2-6154-d1f4-d53c035d3c4d">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertUser_UserNullException" />
+    </UnitTest>
+    <UnitTest name="TestDeleteUser_InvalidProjectIdFormat" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="16d2ffa3-7375-432c-55b9-67e812e406f0">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteUser_InvalidProjectIdFormat" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProject_UserNullInProject" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="d622dfb1-f1f2-8e66-7dc7-0a9e98bf09f9">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteProject_UserNullInProject" />
+    </UnitTest>
+    <UnitTest name="TestInsertProject_UserNullInProject" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="bf215249-1ac3-2427-745c-ee26e65a4d79">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertProject_UserNullInProject" />
+    </UnitTest>
+    <UnitTest name="TestUpdateUser_NegativeEmployeeId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="3dcdb517-374e-32a2-8c10-0b0d48c5a249">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateUser_NegativeEmployeeId" />
+    </UnitTest>
+    <UnitTest name="TestDeleteUser_InvalidEmployeeId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="c042e770-37a2-7b4a-9b62-64ba11816cfa">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteUser_InvalidEmployeeId" />
+    </UnitTest>
+    <UnitTest name="TestDeleteTask_NegativeProjectId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="1e5e4a69-7896-4eb1-37d3-5d23cc36c1b1">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteTask_NegativeProjectId" />
+    </UnitTest>
+    <UnitTest name="TestInsertProject_NegativeProjectIdInUser" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="127ce33e-52a3-170e-ce5f-4de3b5abb4bf">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertProject_NegativeProjectIdInUser" />
+    </UnitTest>
+    <UnitTest name="TestRetrieveTaskByProjectId_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="79baf7ff-4e6e-6a01-3115-ad12437c2795">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRetrieveTaskByProjectId_Success" />
+    </UnitTest>
+    <UnitTest name="TestRetrieveParentTasks_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="c025865f-eb30-7969-3b1d-eb18d5577efc">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRetrieveParentTasks_Success" />
+    </UnitTest>
+    <UnitTest name="TestDeleteTask_NegativeTaskId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="2401db52-938c-e2c8-b612-cc44c4fe79cd">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteTask_NegativeTaskId" />
+    </UnitTest>
+    <UnitTest name="TestUpdateProject_NoProjectAsParameter" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="549a2440-cce2-e665-3b43-d754120b3e5a">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateProject_NoProjectAsParameter" />
+    </UnitTest>
+    <UnitTest name="TestGetUser_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="d4058ec3-0db0-c868-7f99-01da6059a39c">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetUser_Success" />
+    </UnitTest>
+    <UnitTest name="TestDeleteTask_NullTaskObject" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="19a7a828-b127-4214-ae0b-fb481029e7f7">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteTask_NullTaskObject" />
+    </UnitTest>
+    <UnitTest name="TestUpdateTask_NegativeProjectId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="0ccc7d1a-2449-3d25-d985-94a33ededa45">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateTask_NegativeProjectId" />
+    </UnitTest>
+    <UnitTest name="TestDeleteTask_NegativeTaskParentId" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="1f70de60-efb8-f424-6ea2-437699065cfc">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.TaskControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteTask_NegativeTaskParentId" />
+    </UnitTest>
+    <UnitTest name="TestDeleteProjects_Success" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="275efd95-2236-f6e5-4475-62a9da22e653">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.ProjectControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteProjects_Success" />
+    </UnitTest>
+    <UnitTest name="TestInsertUser_InvalidProjectIdFormat" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="3c96fb60-5994-4b71-1c6f-41db7556856e">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInsertUser_InvalidProjectIdFormat" />
+    </UnitTest>
+    <UnitTest name="TestDeleteUser_UserNullException" storage="c:\users\administrator\desktop\sba\sba-excercise\server side\sbaexcercise\projectmanagement.tests\bin\debug\projectmanagement.tests.dll" id="61e42990-0411-3abb-d303-b9e3dcc17551">
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/SBA/sba-excercise/server side/SBAExcercise/ProjectManagement.Tests/bin/Debug/ProjectManagement.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectManagement.Tests.UserControllerTest, ProjectManagement.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteUser_UserNullException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="b22c9fc3-14fb-45f6-975d-11b3deec989f" executionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="61ae71bf-097d-65cf-ce5d-72ae9c372715" executionId="3f9f89fe-c120-4c3c-868e-2520f26b95fb" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="6979b2a6-2014-5bea-ae22-3a23a74f449d" executionId="db60067c-6cfa-4059-b677-ecc46b62e6e5" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="b0891564-0faf-4ef5-c313-83011fc78a75" executionId="403c188a-d514-4118-bb04-a0d1987dab14" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="4d6d60ea-55c4-7e11-8587-eb40d6792722" executionId="f3f8e17a-5e3c-4d43-8cb9-11f5fe161eca" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="d622dfb1-f1f2-8e66-7dc7-0a9e98bf09f9" executionId="7d84730c-f499-41ea-8518-a85a0d67e315" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="7ef0bd24-30f8-4b6b-ca75-e420067e2bc3" executionId="111c3d83-f3f8-4c75-b44d-ee0c13553007" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="275efd95-2236-f6e5-4475-62a9da22e653" executionId="225bfdf2-9967-405d-b6ff-3a89c848632b" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="1e5e4a69-7896-4eb1-37d3-5d23cc36c1b1" executionId="72350f08-b253-4c26-9bd1-484938deb047" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="2401db52-938c-e2c8-b612-cc44c4fe79cd" executionId="5b517919-1825-4e2b-8351-69505b85ed1b" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="1f70de60-efb8-f424-6ea2-437699065cfc" executionId="1ea9bba5-e168-4c10-a782-ef3a29cfc27c" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="19a7a828-b127-4214-ae0b-fb481029e7f7" executionId="a4a12531-e8ae-4b0c-af86-5467df479475" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="c042e770-37a2-7b4a-9b62-64ba11816cfa" executionId="7e048f4c-c3f5-428a-95b1-1d079e5fe48f" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="16d2ffa3-7375-432c-55b9-67e812e406f0" executionId="2da2bf1e-e09b-48c8-95be-6d9dc8ccdd33" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="691ef1ff-a555-0fa2-42b5-427aba17fd52" executionId="2a5f3cb7-034b-47b6-a344-c39cfc03099d" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="d26fdbf8-f7a7-d563-3668-9736bd317f2d" executionId="6061ecea-8dd6-42c3-81c5-d9438a8b086b" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="f28f2683-ba2e-01d4-261a-cf780f354a7d" executionId="fc2a9cf5-2a59-42c8-a598-4399716f1f3c" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="61e42990-0411-3abb-d303-b9e3dcc17551" executionId="736849ff-51e7-438c-bb00-513606a0fdef" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="f463776c-1fde-2fd2-af33-eaf561b0b926" executionId="0e87883a-6e32-4743-8a7b-3a3ece9c7f45" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="d4058ec3-0db0-c868-7f99-01da6059a39c" executionId="c612c02c-9a07-4d3c-9a81-4e908a082f19" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="c03e1b04-befd-1d5f-0c22-4a6a58b7a956" executionId="61940b47-292f-4d05-9607-c63397fdf6e6" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="56bb4940-4450-d220-2032-14fefca9bfd3" executionId="2c7cfb92-28b8-42da-98be-a06e390109f9" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="127ce33e-52a3-170e-ce5f-4de3b5abb4bf" executionId="49690e6f-8f2e-46a9-b829-f47b5d3c4124" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="7111d826-efb9-ac75-9cab-5e0de754cebf" executionId="427a8549-f9f3-48e8-b077-112d7a5f90d3" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="bf215249-1ac3-2427-745c-ee26e65a4d79" executionId="121a4145-8afb-4ba7-a803-61175aebda10" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="7aef6141-9f77-12ca-2226-5af4381a3b5f" executionId="29deb9dc-90b7-434f-8222-819ffdc28f3f" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="a59f394c-0a94-1180-0fb9-69c87558bdaf" executionId="23966776-68c0-41f3-90ce-ee06ac52ea14" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="a585a4ff-5269-c333-f91b-5856ca670cb6" executionId="b122e349-b3d3-4fb2-982b-f8b32c67f000" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="ed8bb308-abf1-b985-e2c4-5495ade317aa" executionId="3675e57c-8bf4-4baf-9957-5983e96395b7" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="3bbe3a32-73c9-a4cd-2730-dfbb0b89a173" executionId="27c0905a-f5a4-4664-83b0-137ef8b36ba4" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="9a0d4e04-d66e-3351-5e2e-23c47b714815" executionId="a71c909d-6536-4903-9ac3-8efd2bc5ebfb" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="dc7d2d07-e349-2869-55a8-7e8c69b806e7" executionId="fb740049-4d09-48ab-99ee-143685d86f62" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="3c96fb60-5994-4b71-1c6f-41db7556856e" executionId="5770c3df-b498-43d0-b50f-d18b3139835a" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="875a6f1b-27eb-1c2e-fbee-b54b999a8a50" executionId="2464e02e-4b54-478f-b2cb-5ad27ddcbedf" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="429390f9-eb80-81b0-efd6-3e993dd372bd" executionId="625ddc33-6918-4bf8-a1ae-62f3c0618af3" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="fc70bf7f-83f2-6154-d1f4-d53c035d3c4d" executionId="3b55b9bf-04f9-4189-986a-4d881c3a10c3" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="c025865f-eb30-7969-3b1d-eb18d5577efc" executionId="23b1c624-e6b2-4999-a929-638f918ca35b" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="0442a8ad-5eb9-8aa7-f383-288cc7fca8ab" executionId="455b8adf-8018-4f67-9dcc-207e16d73924" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="79baf7ff-4e6e-6a01-3115-ad12437c2795" executionId="192d0af1-b6cb-4f7f-85e9-9da277582073" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="9df10c3b-2867-7386-e7d6-262b7c8f4e24" executionId="c7636365-f90c-404a-bd5c-eb81ec573c9c" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="6fd93b25-1fed-a7d6-31d9-93166c69ddad" executionId="dff0cb2a-da10-4fdd-88ef-4416088a38c9" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="76e397b4-dc34-5e40-ac9a-49af38d74bcb" executionId="af0d5b6f-8f5d-464c-95f7-fce75b771dca" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="96a86ba7-442a-8823-14ab-b5acb8bc92bc" executionId="ceb97cdc-3a5f-4164-b2e6-aa7a1eb833e8" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="549a2440-cce2-e665-3b43-d754120b3e5a" executionId="6f88c98b-3fd3-4962-b124-79ac75f57caa" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="80dabf68-0861-c433-c90d-7ca8b461fe82" executionId="76a66407-bdb2-4c02-962a-4fb634dfb1cf" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="b1294f8e-d85d-4c21-a699-c8dca35ad3cf" executionId="ca4c9eef-ae33-4968-b4aa-8de82cc5f295" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="300d8411-dfd6-b7ac-a805-3a3962f569af" executionId="1f65c5ad-fd32-468b-a030-12b03ff39578" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="0ccc7d1a-2449-3d25-d985-94a33ededa45" executionId="4667c46c-6bd4-439d-a316-6f5f3b754c4e" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="28ebb224-fd89-406f-02cc-d907d38cdf96" executionId="56ca7dde-43b1-4179-8962-f24d979084f4" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="8b659528-15bb-04f8-a4cb-7131d5f96c55" executionId="b4af093e-60e3-4cd0-bdca-37e6a46db054" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="9d0c94d7-ab30-1efa-7f8a-04c594c74c3d" executionId="a6222cdb-6a83-4b45-a31f-cf6343499332" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="4b7814a2-d6e4-c0e3-984c-3c3022ef1af3" executionId="4ea8ca78-ea5d-4d07-aec1-b6ae4b4c1112" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="6f1b5702-fa7b-a5f1-b716-5b9f54379c82" executionId="e7b9ac8d-b325-4917-9e8a-14aeaf60d7dc" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="3dcdb517-374e-32a2-8c10-0b0d48c5a249" executionId="8b76c51b-ddbd-428f-84cc-9a594c87c6fe" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="c577fc32-4c2f-86b1-32ea-c70cd46682f8" executionId="13a3c85b-b8c9-4c37-bb73-e307a0a7df31" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="e5a6620e-c7b1-6ad8-bd43-f88338121a82" executionId="4bd37823-22b4-44d0-aa78-f0401175593d" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="a310d823-74fa-4e38-adc7-c8bef23bca16" executionId="bd6dae4a-1f34-49e6-b182-c8c53dac8b50" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry isTransparent="false" testId="8140b87c-3adf-48c2-a64f-fdcfb5444c2b" executionId="9652c4f8-5ebb-419d-96f2-f7348ce26c6e" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry isTransparent="false" testId="e93cdcfa-4f4a-4547-b2d6-fb3b36b3987e" executionId="e1247770-e773-448b-a7e5-fb31cd8f3164" parentExecutionId="ee0de110-6309-49ad-b08e-966810f8d532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <LoadTestResult executionId="ee0de110-6309-49ad-b08e-966810f8d532" testId="b22c9fc3-14fb-45f6-975d-11b3deec989f" testName="LoadTest1" computerName="DOTNET" duration="00:05:00" startTime="2019-03-28T03:18:17.0821057-07:00" endTime="2019-03-28T03:23:17.0821057-07:00" testType="fa4c85ff-1236-4463-b954-3ba2f0eabd95" outcome="Completed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee0de110-6309-49ad-b08e-966810f8d532" runId="2" controllerStartTime="2019-03-28T03:18:17.0821057-07:00" runStatus="Stopped" resultsStoreType="Database" resultsRepositoryConnectString="LAs4ogoKlDd+VpAl2ugknpVnps2Q+yFLesmD6LbUL+Km/JX8cBHGI53gZ4BH8pTCcqKm6fIrGHKGBGJ3QBDSWVtG/R9gmVK41LpMFWa4ySQbzsbWeWhsOim1CQqNS57+" loadTestDuration="300" loadTestWarmupTime="0" previouslyViewed="false">
+      <AnalyzerViewState>
+        <LoadTestRunDescriptor isLegendPanelVisible="true" isOverviewPanelVisible="true" isCounterPanelVisible="true" scrollingGraph="false" minMaxGraph="false" showHorizontalGridOnGraph="true" showThresholdsOnGraph="true" showComparison="false" showZoom="true" lockZoom="true" activeConsoleView="Graph" selectedGraphPanel1="Key Indicators" selectedGraphPanel2="Page Response Time" selectedGraphPanel3="System under Test" selectedGraphPanel4="Controller and Agents" graphPanelLayout="FourGrid" tablePanelLayout="TwoHorizontal" selectedTablePanel1="Tests" selectedTablePanel2="Errors" selectedTablePanel3="Thresholds" selectedTablePanel4="Transactions" controllerName="DOTNET" isLocalRun="true" testRunId="f0b18509-d051-4f48-8ade-62c68ecdadcc" repositoryRunId="0">
+          <GraphDescriptors>
+            <GraphDescriptor graphName="Key Indicators">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="0" rangeGroup="User Load" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Scenario" counterName="User Load" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="0" rangeGroup="Pages/Sec" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Page" counterName="Pages/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16776961" lineStyle="0" fixedRange="0" rangeGroup="Avg. Page Time" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Page" counterName="Avg. Page Time" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-8388480" lineStyle="0" fixedRange="0" rangeGroup="Tests/Sec" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Tests/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-23296" lineStyle="0" fixedRange="0" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744320" lineStyle="0" fixedRange="0" rangeGroup="Errors/Sec" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Errors" counterName="Errors/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-7667712" lineStyle="0" fixedRange="0" rangeGroup="Threshold Violations/Sec" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Errors" counterName="Threshold Violations/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="System under Test">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Controller and Agents">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="100" rangeGroup="% Processor Time" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="Processor" counterName="% Processor Time" instanceName="0" baseInstanceName="0" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="0" rangeGroup="Memory Bytes" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="DOTNET" categoryName="Memory" counterName="Available MBytes" instanceName="systemdiagnosticsperfcounterlibsingleinstance" baseInstanceName="systemdiagnosticsperfcounterlibsingleinstance" loadTestItemId="-1" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Test Response Time">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="1" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertProject_NoProjectAsParameter;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertProject_NoProjectAsParameter(022)" baseInstanceName="TestInsertProject_NoProjectAsParameter" loadTestItemId="22" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateTask_NullTaskObject;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateTask_NullTaskObject(049)" baseInstanceName="TestUpdateTask_NullTaskObject" loadTestItemId="49" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16776961" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteUser_NegativeUserIdFormat;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteUser_NegativeUserIdFormat(014)" baseInstanceName="TestDeleteUser_NegativeUserIdFormat" loadTestItemId="14" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-8388480" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateUser_UserNullException;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateUser_UserNullException(055)" baseInstanceName="TestUpdateUser_UserNullException" loadTestItemId="55" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-23296" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteProject_NegativeProjectId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteProject_NegativeProjectId(001)" baseInstanceName="TestDeleteProject_NegativeProjectId" loadTestItemId="1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744320" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteTask_NullTaskObject;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteTask_NullTaskObject(010)" baseInstanceName="TestDeleteTask_NullTaskObject" loadTestItemId="10" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-7667712" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteTask_NegativeProjectId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteTask_NegativeProjectId(007)" baseInstanceName="TestDeleteTask_NegativeProjectId" loadTestItemId="7" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16751616" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateProject_NegativeProjectId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateProject_NegativeProjectId(040)" baseInstanceName="TestUpdateProject_NegativeProjectId" loadTestItemId="40" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16777077" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteProject_NegativeProjectIdInUser;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteProject_NegativeProjectIdInUser(002)" baseInstanceName="TestDeleteProject_NegativeProjectIdInUser" loadTestItemId="2" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16741493" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertTask_NegativeProjectId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertTask_NegativeProjectId(025)" baseInstanceName="TestInsertTask_NegativeProjectId" loadTestItemId="25" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-5383962" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertProject_NegativeProjectId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertProject_NegativeProjectId(020)" baseInstanceName="TestInsertProject_NegativeProjectId" loadTestItemId="20" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-7278960" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateProject_NoProjectAsParameter;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateProject_NoProjectAsParameter(042)" baseInstanceName="TestUpdateProject_NoProjectAsParameter" loadTestItemId="42" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-38476" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertTask_NegativeTaskId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertTask_NegativeTaskId(026)" baseInstanceName="TestInsertTask_NegativeTaskId" loadTestItemId="26" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-10496" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateProject_NegativeProjectIdInUser;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateProject_NegativeProjectIdInUser(041)" baseInstanceName="TestUpdateProject_NegativeProjectIdInUser" loadTestItemId="41" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16777216" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertProject_UserNullInProject;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertProject_UserNullInProject(023)" baseInstanceName="TestInsertProject_UserNullInProject" loadTestItemId="23" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteProject_CompletedTasksGreater;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteProject_CompletedTasksGreater(000)" baseInstanceName="TestDeleteProject_CompletedTasksGreater" loadTestItemId="0" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateProject_UserNullInProject;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateProject_UserNullInProject(043)" baseInstanceName="TestUpdateProject_UserNullInProject" loadTestItemId="43" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16776961" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteUser_NegativeEmployeeId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteUser_NegativeEmployeeId(013)" baseInstanceName="TestDeleteUser_NegativeEmployeeId" loadTestItemId="13" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-8388480" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertUser_NegativeEmployeeId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertUser_NegativeEmployeeId(032)" baseInstanceName="TestInsertUser_NegativeEmployeeId" loadTestItemId="32" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-23296" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteUser_InvalidProjectIdFormat;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteUser_InvalidProjectIdFormat(012)" baseInstanceName="TestDeleteUser_InvalidProjectIdFormat" loadTestItemId="12" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744320" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateUser_NegativeUserIdFormat;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateUser_NegativeUserIdFormat(053)" baseInstanceName="TestUpdateUser_NegativeUserIdFormat" loadTestItemId="53" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-7667712" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertTask_NegativeTaskParentId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertTask_NegativeTaskParentId(027)" baseInstanceName="TestInsertTask_NegativeTaskParentId" loadTestItemId="27" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16751616" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateTask_NegativeTaskId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateTask_NegativeTaskId(047)" baseInstanceName="TestUpdateTask_NegativeTaskId" loadTestItemId="47" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16777077" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteTask_NegativeTaskId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteTask_NegativeTaskId(008)" baseInstanceName="TestDeleteTask_NegativeTaskId" loadTestItemId="8" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16741493" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertUser_UserNullException;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertUser_UserNullException(034)" baseInstanceName="TestInsertUser_UserNullException" loadTestItemId="34" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-5383962" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateUser_InvalidProjectIdFormat;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateUser_InvalidProjectIdFormat(051)" baseInstanceName="TestUpdateUser_InvalidProjectIdFormat" loadTestItemId="51" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-7278960" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteProject_NoProjectAsParameter;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteProject_NoProjectAsParameter(003)" baseInstanceName="TestDeleteProject_NoProjectAsParameter" loadTestItemId="3" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-38476" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateUser_NegativeEmployeeId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateUser_NegativeEmployeeId(052)" baseInstanceName="TestUpdateUser_NegativeEmployeeId" loadTestItemId="52" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-10496" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateTask_NegativeTaskParentId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateTask_NegativeTaskParentId(048)" baseInstanceName="TestUpdateTask_NegativeTaskParentId" loadTestItemId="48" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16777216" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateProject_CompletedTasksGreater;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateProject_CompletedTasksGreater(039)" baseInstanceName="TestUpdateProject_CompletedTasksGreater" loadTestItemId="39" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteProject_UserNullInProject;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteProject_UserNullInProject(004)" baseInstanceName="TestDeleteProject_UserNullInProject" loadTestItemId="4" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteUser_UserNullException;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteUser_UserNullException(016)" baseInstanceName="TestDeleteUser_UserNullException" loadTestItemId="16" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16776961" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteUser_InvalidEmployeeId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteUser_InvalidEmployeeId(011)" baseInstanceName="TestDeleteUser_InvalidEmployeeId" loadTestItemId="11" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-8388480" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertProject_NegativeProjectIdInUser;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertProject_NegativeProjectIdInUser(021)" baseInstanceName="TestInsertProject_NegativeProjectIdInUser" loadTestItemId="21" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-23296" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertProject_CompletedTasksGreater;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertProject_CompletedTasksGreater(019)" baseInstanceName="TestInsertProject_CompletedTasksGreater" loadTestItemId="19" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744320" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertTask_NullTaskObject;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertTask_NullTaskObject(028)" baseInstanceName="TestInsertTask_NullTaskObject" loadTestItemId="28" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-7667712" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertUser_InvalidProjectIdFormat;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertUser_InvalidProjectIdFormat(031)" baseInstanceName="TestInsertUser_InvalidProjectIdFormat" loadTestItemId="31" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16751616" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateProjects_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateProjects_Success(044)" baseInstanceName="TestUpdateProjects_Success" loadTestItemId="44" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16777077" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestGetUser_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestGetUser_Success(018)" baseInstanceName="TestGetUser_Success" loadTestItemId="18" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16741493" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestRetrieveParentTasks_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestRetrieveParentTasks_Success(035)" baseInstanceName="TestRetrieveParentTasks_Success" loadTestItemId="35" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-5383962" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteUser_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteUser_Success(015)" baseInstanceName="TestDeleteUser_Success" loadTestItemId="15" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-7278960" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteProjects_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteProjects_Success(005)" baseInstanceName="TestDeleteProjects_Success" loadTestItemId="5" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-38476" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestRetrieveTaskByProjectId_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestRetrieveTaskByProjectId_Success(037)" baseInstanceName="TestRetrieveTaskByProjectId_Success" loadTestItemId="37" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-10496" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestGetProjects_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestGetProjects_Success(017)" baseInstanceName="TestGetProjects_Success" loadTestItemId="17" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16777216" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertTasks_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertTasks_Success(029)" baseInstanceName="TestInsertTasks_Success" loadTestItemId="29" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertProjects_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertProjects_Success(024)" baseInstanceName="TestInsertProjects_Success" loadTestItemId="24" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestInsertUser_Success;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestInsertUser_Success(033)" baseInstanceName="TestInsertUser_Success" loadTestItemId="33" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16776961" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestRetrieveTaskByProjectId_NegativeTaskId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestRetrieveTaskByProjectId_NegativeTaskId(036)" baseInstanceName="TestRetrieveTaskByProjectId_NegativeTaskId" loadTestItemId="36" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-8388480" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestDeleteTask_NegativeTaskParentId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestDeleteTask_NegativeTaskParentId(009)" baseInstanceName="TestDeleteTask_NegativeTaskParentId" loadTestItemId="9" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-23296" lineStyle="0" fixedRange="1" rangeGroup="Avg. Test Time" showOnGraph="true" isSelected="false" counterMetadata="TestUpdateUser_InvalidEmployeeId;Scenario1">
+                  <CounterDescriptor machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="TestUpdateUser_InvalidEmployeeId(050)" baseInstanceName="TestUpdateUser_InvalidEmployeeId" loadTestItemId="50" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Transaction Response Time">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Page Response Time">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+            </GraphDescriptor>
+          </GraphDescriptors>
+        </LoadTestRunDescriptor>
+      </AnalyzerViewState>
+      <Summary>
+        <PerformanceCounterResults>
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="DOTNET" categoryName="LoadTest:Scenario" counterName="User Load" instanceName="_Total" value="25" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="DOTNET" categoryName="LoadTest:Test" counterName="Total Tests" instanceName="_Total" value="303421" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="DOTNET" categoryName="LoadTest:Test" counterName="Failed Tests" instanceName="_Total" value="24141" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="DOTNET" categoryName="LoadTest:Test" counterName="Tests/Sec" instanceName="_Total" value="1011.40332" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="DOTNET" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="_Total" value="0.0037010985" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="DOTNET" categoryName="LoadTest:Request" counterName="Total Requests" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="DOTNET" categoryName="LoadTest:Request" counterName="Failed Requests" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="DOTNET" categoryName="LoadTest:Request" counterName="Cached Requests" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="DOTNET" categoryName="LoadTest:Request" counterName="Requests/Sec" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="DOTNET" categoryName="LoadTest:Request" counterName="Avg. Response Time" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="DOTNET" categoryName="Processor" counterName="% Processor Time" instanceName="_Total" value="99.9518356" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="true" machineName="DOTNET" categoryName="Memory" counterName="Available MBytes" instanceName="-" value="6835" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="DOTNET" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="microsoft hyper-v network adapter" value="414868.563" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="DOTNET" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.iiht.tech" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="DOTNET" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="microsoft hyper-v network adapter" value="257.884338" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="DOTNET" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.iiht.tech" value="0" />
+        </PerformanceCounterResults>
+        <TestSummaries>
+          <TestSummary scenarioName="Scenario1" testName="TestInsertProject_NoProjectAsParameter" totalTests="5991" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateTask_NullTaskObject" totalTests="3033" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteUser_NegativeUserIdFormat" totalTests="6056" testsFailed="0" averageDuration="3" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateUser_UserNullException" totalTests="3122" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteProject_NegativeProjectId" totalTests="6093" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteTask_NullTaskObject" totalTests="5944" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteTask_NegativeProjectId" totalTests="5989" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateProject_NegativeProjectId" totalTests="6162" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteProject_NegativeProjectIdInUser" totalTests="6067" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertTask_NegativeProjectId" totalTests="6000" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertProject_NegativeProjectId" totalTests="6116" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateProject_NoProjectAsParameter" totalTests="3010" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertTask_NegativeTaskId" totalTests="6088" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateProject_NegativeProjectIdInUser" totalTests="6055" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertProject_UserNullInProject" totalTests="6132" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteProject_CompletedTasksGreater" totalTests="5964" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateProject_UserNullInProject" totalTests="2986" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteUser_NegativeEmployeeId" totalTests="6112" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertUser_NegativeEmployeeId" totalTests="6065" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteUser_InvalidProjectIdFormat" totalTests="6025" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateUser_NegativeUserIdFormat" totalTests="3003" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertTask_NegativeTaskParentId" totalTests="5985" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateTask_NegativeTaskId" totalTests="3050" testsFailed="0" averageDuration="3" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteTask_NegativeTaskId" totalTests="6192" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertUser_UserNullException" totalTests="6088" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateUser_InvalidProjectIdFormat" totalTests="3098" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteProject_NoProjectAsParameter" totalTests="6133" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateUser_NegativeEmployeeId" totalTests="3060" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateTask_NegativeTaskParentId" totalTests="3101" testsFailed="0" averageDuration="3" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateProject_CompletedTasksGreater" totalTests="6214" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteProject_UserNullInProject" totalTests="6079" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteUser_UserNullException" totalTests="6055" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteUser_InvalidEmployeeId" totalTests="6047" testsFailed="0" averageDuration="1" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertProject_NegativeProjectIdInUser" totalTests="5868" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertProject_CompletedTasksGreater" totalTests="6095" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertTask_NullTaskObject" totalTests="6069" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertUser_InvalidProjectIdFormat" totalTests="6096" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateProjects_Success" totalTests="6077" testsFailed="0" averageDuration="8" />
+          <TestSummary scenarioName="Scenario1" testName="TestGetUser_Success" totalTests="6084" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestRetrieveParentTasks_Success" totalTests="6118" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteUser_Success" totalTests="5994" testsFailed="0" averageDuration="3" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteProjects_Success" totalTests="12198" testsFailed="0" averageDuration="4" />
+          <TestSummary scenarioName="Scenario1" testName="TestRetrieveTaskByProjectId_Success" totalTests="6043" testsFailed="0" averageDuration="20" />
+          <TestSummary scenarioName="Scenario1" testName="TestGetProjects_Success" totalTests="5916" testsFailed="5916" averageDuration="13" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertTasks_Success" totalTests="6148" testsFailed="6148" averageDuration="3" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertProjects_Success" totalTests="5970" testsFailed="5970" averageDuration="3" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertUser_Success" totalTests="6107" testsFailed="6107" averageDuration="4" />
+          <TestSummary scenarioName="Scenario1" testName="TestRetrieveTaskByProjectId_NegativeTaskId" totalTests="6081" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestDeleteTask_NegativeTaskParentId" totalTests="6074" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateUser_InvalidEmployeeId" totalTests="3033" testsFailed="0" averageDuration="1" />
+          <TestSummary scenarioName="Scenario1" testName="TestRetrieveTasks_Success" totalTests="6016" testsFailed="0" averageDuration="20" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateTask_NegativeProjectId" totalTests="3093" testsFailed="0" averageDuration="2" />
+          <TestSummary scenarioName="Scenario1" testName="TestUpdateUser_Success" totalTests="2994" testsFailed="0" averageDuration="4" />
+          <TestSummary scenarioName="Scenario1" testName="TestInsertUser_InvalidEmployeeId" totalTests="6154" testsFailed="0" averageDuration="1" />
+          <TestSummary scenarioName="Scenario1" testName="WebTest1" totalTests="6078" testsFailed="0" averageDuration="0" />
+        </TestSummaries>
+      </Summary>
+    </LoadTestResult>
+  </Results>
+</TestRun>

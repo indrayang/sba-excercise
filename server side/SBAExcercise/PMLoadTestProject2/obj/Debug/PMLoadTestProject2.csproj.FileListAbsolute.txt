@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\bin\Debug\WebTest1.webtest
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\bin\Debug\LoadTest1.loadtest
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\bin\Debug\PMLoadTestProject2.dll
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\bin\Debug\PMLoadTestProject2.pdb
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\obj\Debug\PMLoadTestProject2.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\obj\Debug\PMLoadTestProject2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\obj\Debug\PMLoadTestProject2.csproj.CopyComplete
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\obj\Debug\PMLoadTestProject2.dll
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\PMLoadTestProject2\obj\Debug\PMLoadTestProject2.pdb
