@@ -61,8 +61,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -70,8 +70,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -91,8 +91,8 @@ namespace ProjectManagement.Tests
         {
             var context = new MockProjectManagerEntities();
             var user = new Models.User();
-            user.FirstName = "ankita";
-            user.LastName = "ghosh";
+            user.FirstName = "indrayan";
+            user.LastName = "ganguly";
             user.EmployeeId = "123456";
             user.UserId = 123;
             var controller = new UserController(new UserBC(context));
@@ -111,8 +111,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -121,7 +121,7 @@ namespace ProjectManagement.Tests
 
             var user = new Models.User();
             user.FirstName = "Khush";
-            user.LastName = "jain";
+            user.LastName = "Sengupta";
             user.EmployeeId = "123";
             user.UserId = 503322;
 
@@ -140,8 +140,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -149,8 +149,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -158,8 +158,8 @@ namespace ProjectManagement.Tests
             context.Users = users;
 
             var user = new Models.User();
-            user.FirstName = "Khushboo";
-            user.LastName = "Jain";
+            user.FirstName = "Sriparna";
+            user.LastName = "Sengupta";
             user.EmployeeId = "503322";
             user.UserId = 503322;
 
@@ -179,8 +179,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -188,8 +188,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -212,8 +212,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -221,8 +221,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -245,8 +245,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -254,8 +254,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -278,8 +278,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -287,8 +287,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -311,8 +311,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -320,8 +320,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -344,8 +344,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -353,8 +353,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -377,8 +377,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -386,8 +386,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -410,8 +410,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -419,8 +419,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -443,8 +443,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -452,8 +452,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -476,8 +476,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -485,8 +485,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -509,8 +509,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -518,8 +518,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -542,8 +542,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -551,8 +551,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -575,8 +575,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -584,8 +584,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -608,8 +608,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Suvam",
+                Last_Name = "Chowdhury",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -617,8 +617,8 @@ namespace ProjectManagement.Tests
             users.Add(new DataAccessClasses.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Sriparna",
+                Last_Name = "Sengupta",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322

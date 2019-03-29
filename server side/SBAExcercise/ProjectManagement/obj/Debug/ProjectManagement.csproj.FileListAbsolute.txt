@@ -47,3 +47,4 @@ C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\Projec
 C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\ProjectManagement\obj\Debug\ProjectManagement.csproj.CopyComplete
 C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\ProjectManagement\obj\Debug\ProjectManagement.dll
 C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\Administrator\Desktop\SBA\sba-excercise\server side\SBAExcercise\ProjectManagement\obj\Debug\ProjectManagement.csprojAssemblyReference.cache
